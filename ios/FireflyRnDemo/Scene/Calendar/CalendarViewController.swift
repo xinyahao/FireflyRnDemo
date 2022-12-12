@@ -9,19 +9,13 @@ import UIKit
 import React
 
 class CalendarViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .white
-        
-       let label = UILabel(frame: CGRect.zero)
-       label.text = "CalendarViewController"
-       label.translatesAutoresizingMaskIntoConstraints = false
-       view.addSubview(label)
-       NSLayoutConstraint.activate([
-           label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-           label.centerYAnchor.constraint(equalTo: view.centerYAnchor)
-       ])
+        let rootView = RCTRootView(bridge: RNBridgeManager().bridge,
+                                   moduleName: "FireflyRnDemo",
+                                   initialProperties: ["data":["message": "from - swift"]]);
+        rootView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        self.view.addSubview(rootView)
     }
 }

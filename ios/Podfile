@@ -10,8 +10,8 @@ target 'FireflyRnDemo' do
   # Flags change depending on the env values.
   flags = get_default_flags()
 
-  fabric_enabled = ENV['USE_FABRIC']
-  ENV['RCT_NEW_ARCH_ENABLED'] = "1"
+  # fabric_enabled = ENV['USE_FABRIC']
+  # ENV['RCT_NEW_ARCH_ENABLED'] = "1"
 
   use_react_native!(
     :path => config[:reactNativePath],

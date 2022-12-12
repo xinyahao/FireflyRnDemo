@@ -21,7 +21,7 @@ class MainTabBarController: UITabBarController {
         homeNav.tabBarItem.title = "Home"
         homeNav.tabBarItem.image = UIImage(systemName: "house")
         
-        let calendar = RNViewController(moduleName: "FireflyRnDemo", initialProperties: ["data":["message": "from - swift"]])
+        let calendar = CalendarViewController()
         let calendarNav = UINavigationController(rootViewController: calendar)
         calendarNav.tabBarItem.title = "Calendar"
         calendarNav.tabBarItem.image = UIImage(systemName: "calendar")

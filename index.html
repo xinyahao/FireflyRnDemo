@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 250px;
+            height: 250px;
+            border: 1px solid #ccc;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- style="width: 250px; height: 250px; object-fit: fill" -->
+    <div class="box">
+        <video id="video" width="250px" height="250px" controls poster="" style="width: 250px; height: 250px; object-fit: cover;background-color: #000;" crossorigin="anonymous">
+            <source src="https://openseauserdata.com/files/b5ea8c8715e06941ebdd1022ec234b58.mp4#t=0.001" type="video/mp4">
+            您的浏览器不支持 video 标签。
+        </video>
+    </div>
+</body>
+</html>
+<script>
+    var video = document.getElementById("video");
+    // video.addEventListener('loadeddata', (event) => {
+    //     let canvas = document.createElement('canvas'),
+    //         ctx = canvas.getContext("2d");
+    //     canvas.width = video.videoWidth * 1;
+    //     canvas.height = video.videoHeight * 1;
+    //     ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+    //     let src = canvas.toDataURL('image/png');
+    //     video.setAttribute('poster', src);
+    // });
+
+    video.addEventListener('play', (event) => {
+        video.style.objectFit = ''
+    })
+
+    video.addEventListener('pause', (event) => {
+        video.style.objectFit = 'cover'
+    })
+</script>

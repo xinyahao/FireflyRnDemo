@@ -14,14 +14,19 @@ class MineViewController: UIViewController {
         
         view.backgroundColor = .white
         
-        let label = UILabel(frame: CGRect.zero)
-        label.text = "MineViewController"
-        label.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(label)
-        
-        NSLayoutConstraint.activate([
-            label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            label.centerYAnchor.constraint(equalTo: view.centerYAnchor)
-        ])
+        let button = UIButton(type: .system)
+        button.frame = CGRectMake(50, 64, 180, 100)
+        button.setTitle("Login", for: .normal)
+        view.addSubview(button)
+
+        button.addTarget(self, action: #selector(buttonClick), for: .touchUpInside)
+    }
+    
+    @objc func buttonClick() {
+        let rootView = RCTRootView(bridge: RNBridgeManager().bridge,
+                                   moduleName: "Login",
+                                   initialProperties: ["data":["message": "from - swift"]]);
+        rootView.frame = CGRect(x: 0, y: 160, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        self.view.addSubview(rootView)
     }
 }
