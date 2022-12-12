@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27DAA7A27A8BBA0ED818D4B5 /* libPods-FireflyRnDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D16ED582365D1CF33E345A9 /* libPods-FireflyRnDemo.a */; };
+		2E3618E8294634BF002768D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3618E7294634BF002768D6 /* AppDelegate.swift */; };
+		2E3618EA294634BF002768D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3618E9294634BF002768D6 /* SceneDelegate.swift */; };
+		2E3618F1294634C0002768D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3618F0294634C0002768D6 /* Assets.xcassets */; };
+		2E3618F4294634C0002768D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3618F2294634C0002768D6 /* LaunchScreen.storyboard */; };
+		2E361905294634E9002768D6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3618FE294634E9002768D6 /* HomeViewController.swift */; };
+		2E361906294634E9002768D6 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361900294634E9002768D6 /* CalendarViewController.swift */; };
+		2E361907294634E9002768D6 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361902294634E9002768D6 /* MineViewController.swift */; };
+		2E361908294634E9002768D6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361904294634E9002768D6 /* MainTabBarController.swift */; };
+		2E361918294639D7002768D6 /* RNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361915294639D7002768D6 /* RNViewController.swift */; };
+		2E361919294639D7002768D6 /* RNBridgeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361916294639D7002768D6 /* RNBridgeDelegate.swift */; };
+		2E36191A294639D7002768D6 /* RNBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361917294639D7002768D6 /* RNBridge.swift */; };
+		2E36191D29463FC5002768D6 /* RNBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E36191C29463FC5002768D6 /* RNBridgeManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E3618E4294634BF002768D6 /* FireflyRnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireflyRnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3618E7294634BF002768D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E3618E9294634BF002768D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E3618F0294634C0002768D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E3618F3294634C0002768D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E3618F5294634C0002768D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E3618FE294634E9002768D6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2E361900294634E9002768D6 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		2E361902294634E9002768D6 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		2E361904294634E9002768D6 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2E36190B29463803002768D6 /* FireflyRnDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FireflyRnDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E361915294639D7002768D6 /* RNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNViewController.swift; sourceTree = "<group>"; };
+		2E361916294639D7002768D6 /* RNBridgeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBridgeDelegate.swift; sourceTree = "<group>"; };
+		2E361917294639D7002768D6 /* RNBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBridge.swift; sourceTree = "<group>"; };
+		2E36191B29463FA1002768D6 /* RNBridgeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBridgeManager.h; sourceTree = "<group>"; };
+		2E36191C29463FC5002768D6 /* RNBridgeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridgeManager.m; sourceTree = "<group>"; };
+		5D16ED582365D1CF33E345A9 /* libPods-FireflyRnDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireflyRnDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD87C8803B8C69C824BF848B /* Pods-FireflyRnDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireflyRnDemo.release.xcconfig"; path = "Target Support Files/Pods-FireflyRnDemo/Pods-FireflyRnDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F1C895F19C17C151CD1C2108 /* Pods-FireflyRnDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireflyRnDemo.debug.xcconfig"; path = "Target Support Files/Pods-FireflyRnDemo/Pods-FireflyRnDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3618E1294634BF002768D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DAA7A27A8BBA0ED818D4B5 /* libPods-FireflyRnDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244F122263B347963C3CFE37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1C895F19C17C151CD1C2108 /* Pods-FireflyRnDemo.debug.xcconfig */,
+				BD87C8803B8C69C824BF848B /* Pods-FireflyRnDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2E3618DB294634BF002768D6 = {
+			isa = PBXGroup;
+			children = (
+				2E3618E6294634BF002768D6 /* FireflyRnDemo */,
+				2E3618E5294634BF002768D6 /* Products */,
+				244F122263B347963C3CFE37 /* Pods */,
+				4AE3CB7CEA570B0835248EEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3618E5294634BF002768D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3618E4294634BF002768D6 /* FireflyRnDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3618E6294634BF002768D6 /* FireflyRnDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2E36191E2946EFD9002768D6 /* RNBridgeManager */,
+				2E361914294639D7002768D6 /* RNBridge */,
+				2E3618FC294634E9002768D6 /* Scene */,
+				2E3618FB294634E9002768D6 /* Tools */,
+				2E3618E7294634BF002768D6 /* AppDelegate.swift */,
+				2E3618E9294634BF002768D6 /* SceneDelegate.swift */,
+				2E3618F0294634C0002768D6 /* Assets.xcassets */,
+				2E3618F2294634C0002768D6 /* LaunchScreen.storyboard */,
+				2E3618F5294634C0002768D6 /* Info.plist */,
+				2E36190B29463803002768D6 /* FireflyRnDemo-Bridging-Header.h */,
+			);
+			path = FireflyRnDemo;
+			sourceTree = "<group>";
+		};
+		2E3618FB294634E9002768D6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2E3618FC294634E9002768D6 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				2E3618FD294634E9002768D6 /* Home */,
+				2E3618FF294634E9002768D6 /* Calendar */,
+				2E361901294634E9002768D6 /* Mine */,
+				2E361903294634E9002768D6 /* Main */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		2E3618FD294634E9002768D6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2E3618FE294634E9002768D6 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2E3618FF294634E9002768D6 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				2E361900294634E9002768D6 /* CalendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		2E361901294634E9002768D6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2E361902294634E9002768D6 /* MineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2E361903294634E9002768D6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E361904294634E9002768D6 /* MainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2E361914294639D7002768D6 /* RNBridge */ = {
+			isa = PBXGroup;
+			children = (
+				2E361915294639D7002768D6 /* RNViewController.swift */,
+				2E361916294639D7002768D6 /* RNBridgeDelegate.swift */,
+				2E361917294639D7002768D6 /* RNBridge.swift */,
+			);
+			path = RNBridge;
+			sourceTree = "<group>";
+		};
+		2E36191E2946EFD9002768D6 /* RNBridgeManager */ = {
+			isa = PBXGroup;
+			children = (
+				2E36191C29463FC5002768D6 /* RNBridgeManager.m */,
+				2E36191B29463FA1002768D6 /* RNBridgeManager.h */,
+			);
+			path = RNBridgeManager;
+			sourceTree = "<group>";
+		};
+		4AE3CB7CEA570B0835248EEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D16ED582365D1CF33E345A9 /* libPods-FireflyRnDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3618E3294634BF002768D6 /* FireflyRnDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3618F8294634C0002768D6 /* Build configuration list for PBXNativeTarget "FireflyRnDemo" */;
+			buildPhases = (
+				6AD49A75A34EB2EE626AC429 /* [CP] Check Pods Manifest.lock */,
+				2E3618E0294634BF002768D6 /* Sources */,
+				2E3618E1294634BF002768D6 /* Frameworks */,
+				2E3618E2294634BF002768D6 /* Resources */,
+				AE11B8C7D7B8A48265246ED7 /* [CP] Embed Pods Frameworks */,
+				42D406FB4C385F198F4C6F2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireflyRnDemo;
+			productName = FireflyRnDemo;
+			productReference = 2E3618E4294634BF002768D6 /* FireflyRnDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3618DC294634BF002768D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2E3618E3294634BF002768D6 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
+					};
+				};
+			};
+			buildConfigurationList = 2E3618DF294634BF002768D6 /* Build configuration list for PBXProject "FireflyRnDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3618DB294634BF002768D6;
+			productRefGroup = 2E3618E5294634BF002768D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3618E3294634BF002768D6 /* FireflyRnDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3618E2294634BF002768D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3618F4294634C0002768D6 /* LaunchScreen.storyboard in Resources */,
+				2E3618F1294634C0002768D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42D406FB4C385F198F4C6F2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireflyRnDemo/Pods-FireflyRnDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireflyRnDemo/Pods-FireflyRnDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireflyRnDemo/Pods-FireflyRnDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AD49A75A34EB2EE626AC429 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireflyRnDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE11B8C7D7B8A48265246ED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireflyRnDemo/Pods-FireflyRnDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireflyRnDemo/Pods-FireflyRnDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireflyRnDemo/Pods-FireflyRnDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3618E0294634BF002768D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E361918294639D7002768D6 /* RNViewController.swift in Sources */,
+				2E361906294634E9002768D6 /* CalendarViewController.swift in Sources */,
+				2E3618E8294634BF002768D6 /* AppDelegate.swift in Sources */,
+				2E361908294634E9002768D6 /* MainTabBarController.swift in Sources */,
+				2E36191A294639D7002768D6 /* RNBridge.swift in Sources */,
+				2E3618EA294634BF002768D6 /* SceneDelegate.swift in Sources */,
+				2E361905294634E9002768D6 /* HomeViewController.swift in Sources */,
+				2E361919294639D7002768D6 /* RNBridgeDelegate.swift in Sources */,
+				2E361907294634E9002768D6 /* MineViewController.swift in Sources */,
+				2E36191D29463FC5002768D6 /* RNBridgeManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E3618F2294634C0002768D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3618F3294634C0002768D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3618F6294634C0002768D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E3618F7294634C0002768D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3618F9294634C0002768D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C895F19C17C151CD1C2108 /* Pods-FireflyRnDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Q46WR3M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FireflyRnDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinya.FireflyRnDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FireflyRnDemo/FireflyRnDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3618FA294634C0002768D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD87C8803B8C69C824BF848B /* Pods-FireflyRnDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55Q46WR3M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FireflyRnDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinya.FireflyRnDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FireflyRnDemo/FireflyRnDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3618DF294634BF002768D6 /* Build configuration list for PBXProject "FireflyRnDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3618F6294634C0002768D6 /* Debug */,
+				2E3618F7294634C0002768D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3618F8294634C0002768D6 /* Build configuration list for PBXNativeTarget "FireflyRnDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3618F9294634C0002768D6 /* Debug */,
+				2E3618FA294634C0002768D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3618DC294634BF002768D6 /* Project object */;
+}
