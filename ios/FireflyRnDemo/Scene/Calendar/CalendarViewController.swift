@@ -11,11 +11,8 @@ import React
 class CalendarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let rootView = RCTRootView(bridge: RNBridgeManager().bridge,
-                                   moduleName: "FireflyRnDemo",
-                                   initialProperties: ["data":["message": "from - swift"]]);
-        rootView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        self.view.addSubview(rootView)
+        let rootView = RCTAppSetupDefaultRootView(RNBridgeManager.shared().bridge , "AppPage", ["data":["message": "from - swift"]])
+        rootView?.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        self.view = rootView
     }
 }

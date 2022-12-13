@@ -16,12 +16,9 @@
 		2E361906294634E9002768D6 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361900294634E9002768D6 /* CalendarViewController.swift */; };
 		2E361907294634E9002768D6 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361902294634E9002768D6 /* MineViewController.swift */; };
 		2E361908294634E9002768D6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361904294634E9002768D6 /* MainTabBarController.swift */; };
-		2E361918294639D7002768D6 /* RNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361915294639D7002768D6 /* RNViewController.swift */; };
-		2E361919294639D7002768D6 /* RNBridgeDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361916294639D7002768D6 /* RNBridgeDelegate.swift */; };
-		2E36191A294639D7002768D6 /* RNBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E361917294639D7002768D6 /* RNBridge.swift */; };
-		2E36191D29463FC5002768D6 /* RNBridgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E36191C29463FC5002768D6 /* RNBridgeManager.m */; };
 		2E60270129471CA0005F1D2C /* LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E60270029471CA0005F1D2C /* LoginModule.swift */; };
 		2E60270329471DC1005F1D2C /* RCTBridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E60270229471DC1005F1D2C /* RCTBridgeModule.m */; };
+		2E60270529482749005F1D2C /* RNBridgeManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E60270429482749005F1D2C /* RNBridgeManager.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,13 +33,10 @@
 		2E361902294634E9002768D6 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		2E361904294634E9002768D6 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2E36190B29463803002768D6 /* FireflyRnDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FireflyRnDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		2E361915294639D7002768D6 /* RNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNViewController.swift; sourceTree = "<group>"; };
-		2E361916294639D7002768D6 /* RNBridgeDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBridgeDelegate.swift; sourceTree = "<group>"; };
-		2E361917294639D7002768D6 /* RNBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBridge.swift; sourceTree = "<group>"; };
 		2E36191B29463FA1002768D6 /* RNBridgeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBridgeManager.h; sourceTree = "<group>"; };
-		2E36191C29463FC5002768D6 /* RNBridgeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBridgeManager.m; sourceTree = "<group>"; };
 		2E60270029471CA0005F1D2C /* LoginModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModule.swift; sourceTree = "<group>"; };
 		2E60270229471DC1005F1D2C /* RCTBridgeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTBridgeModule.m; sourceTree = "<group>"; };
+		2E60270429482749005F1D2C /* RNBridgeManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RNBridgeManager.mm; sourceTree = "<group>"; };
 		5D16ED582365D1CF33E345A9 /* libPods-FireflyRnDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireflyRnDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD87C8803B8C69C824BF848B /* Pods-FireflyRnDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireflyRnDemo.release.xcconfig"; path = "Target Support Files/Pods-FireflyRnDemo/Pods-FireflyRnDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F1C895F19C17C151CD1C2108 /* Pods-FireflyRnDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireflyRnDemo.debug.xcconfig"; path = "Target Support Files/Pods-FireflyRnDemo/Pods-FireflyRnDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,9 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				2E6026FF29471C89005F1D2C /* Login */,
-				2E6026F029470060005F1D2C /* Tools */,
 				2E36191E2946EFD9002768D6 /* RNBridgeManager */,
-				2E361914294639D7002768D6 /* RNBridge */,
 				2E3618FC294634E9002768D6 /* Scene */,
 				2E3618E7294634BF002768D6 /* AppDelegate.swift */,
 				2E3618E9294634BF002768D6 /* SceneDelegate.swift */,
@@ -148,30 +140,13 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		2E361914294639D7002768D6 /* RNBridge */ = {
-			isa = PBXGroup;
-			children = (
-				2E361915294639D7002768D6 /* RNViewController.swift */,
-				2E361916294639D7002768D6 /* RNBridgeDelegate.swift */,
-				2E361917294639D7002768D6 /* RNBridge.swift */,
-			);
-			path = RNBridge;
-			sourceTree = "<group>";
-		};
 		2E36191E2946EFD9002768D6 /* RNBridgeManager */ = {
 			isa = PBXGroup;
 			children = (
-				2E36191C29463FC5002768D6 /* RNBridgeManager.m */,
+				2E60270429482749005F1D2C /* RNBridgeManager.mm */,
 				2E36191B29463FA1002768D6 /* RNBridgeManager.h */,
 			);
 			path = RNBridgeManager;
-			sourceTree = "<group>";
-		};
-		2E6026F029470060005F1D2C /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 		2E6026FF29471C89005F1D2C /* Login */ = {
@@ -324,17 +299,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E361918294639D7002768D6 /* RNViewController.swift in Sources */,
 				2E361906294634E9002768D6 /* CalendarViewController.swift in Sources */,
 				2E3618E8294634BF002768D6 /* AppDelegate.swift in Sources */,
 				2E361908294634E9002768D6 /* MainTabBarController.swift in Sources */,
-				2E36191A294639D7002768D6 /* RNBridge.swift in Sources */,
 				2E3618EA294634BF002768D6 /* SceneDelegate.swift in Sources */,
 				2E361905294634E9002768D6 /* HomeViewController.swift in Sources */,
-				2E361919294639D7002768D6 /* RNBridgeDelegate.swift in Sources */,
+				2E60270529482749005F1D2C /* RNBridgeManager.mm in Sources */,
 				2E60270329471DC1005F1D2C /* RCTBridgeModule.m in Sources */,
 				2E361907294634E9002768D6 /* MineViewController.swift in Sources */,
-				2E36191D29463FC5002768D6 /* RNBridgeManager.m in Sources */,
 				2E60270129471CA0005F1D2C /* LoginModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

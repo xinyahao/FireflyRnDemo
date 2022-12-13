@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import React
 
 class MineViewController: UIViewController {
 
@@ -23,10 +24,8 @@ class MineViewController: UIViewController {
     }
     
     @objc func buttonClick() {
-        let rootView = RCTRootView(bridge: RNBridgeManager().bridge,
-                                   moduleName: "Login",
-                                   initialProperties: ["data":["message": "from - swift"]]);
-        rootView.frame = CGRect(x: 0, y: 160, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
-        self.view.addSubview(rootView)
+        let rootView = RCTAppSetupDefaultRootView(RNBridgeManager.shared().bridge, "Login", ["data":["message": "from - swift"]])
+        rootView?.frame = CGRect(x: 0, y: 160, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        self.view = rootView
     }
 }
